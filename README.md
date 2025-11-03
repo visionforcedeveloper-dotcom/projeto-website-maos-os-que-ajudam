@@ -107,7 +107,7 @@ O projeto foi desenvolvido seguindo uma abordagem **Iterativa e Incremental**, c
 
 - **João Vitor**  
 - **Miguel**  
-- **Vinicios**
+- **Vinícius**
 
 ---
 
