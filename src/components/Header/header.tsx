@@ -4,7 +4,7 @@ export function Header (){
     return (
         <header>
             <nav className={styles.navbar}>
-                <div className="logo">
+                <div >
                     <img src="/assets/logo-projeto.png" alt="Logo Mãos Que Ajudam"/>
                 </div>
 

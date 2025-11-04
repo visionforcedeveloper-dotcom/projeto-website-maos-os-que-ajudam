@@ -1,7 +1,20 @@
 .navbar {
-    background-color: #F5F5F5;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: #F5F5F5;
+    padding: 15px 50px;
+
 }
 
-.nav-links {
+.nav-links { 
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links a {
+    font-weight: bold;
+    text-decoration: none;
     color: #0496FF;
 }
