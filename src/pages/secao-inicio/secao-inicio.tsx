@@ -10,7 +10,7 @@ export function SecaoInicio() {
         <div>
           <h1>Mãos Que Ajudam</h1>
           <button>
-            <a href="">Faça Sua Doação Agora</a>
+            <a href="#comoajudar">Faça Sua Doação Agora</a>
           </button>
         </div>
       </div>

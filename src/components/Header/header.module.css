@@ -17,4 +17,9 @@
     font-weight: bold;
     text-decoration: none;
     color: #0496FF;
+    
+}
+
+.nav-links a:hover {
+    filter:brightness(0.8)
 }
