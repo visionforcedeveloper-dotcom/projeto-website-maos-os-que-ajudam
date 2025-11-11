@@ -1,10 +1,9 @@
-import React from "react";
 import styles from  "./sobre.module.css";
 import { FaRegHeart } from "react-icons/fa";
 import { TbTargetArrow } from "react-icons/tb";
 import { MdOutlineRemoveRedEye } from "react-icons/md";
 
-const SobreNos: React.FC = () => {
+export const SobreNos= () => {
     return (
         <section className={styles.sobrenos} id="sobre-nos">
             <div className={styles.container}> 
@@ -52,4 +51,4 @@ const SobreNos: React.FC = () => {
     );
 };
 
-export default SobreNos;
+
