@@ -9,7 +9,7 @@ import { GoPeople } from "react-icons/go";
 
 export function NossosServiços({}){
     return(
-        <section className={styles.container}>
+        <section id="NossosServiços" className={styles.container}>
             <h2>Nossos Serviços</h2>
             <p>Oferecemos suporte integral com programas e serviços que atendem às necessidades básicas e promovem o desenvolvimento pessoal</p>
             <div id="container" className={styles.cards}>

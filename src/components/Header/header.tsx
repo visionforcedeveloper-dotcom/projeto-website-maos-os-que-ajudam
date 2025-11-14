@@ -10,13 +10,19 @@ export function Header() {
 
         <ul className={styles["nav-links"]}>
           <li>
-            <a href="#sobrenos">Sobre Nós</a>
+            <a href="#sobre-nos">Sobre Nós</a>
           </li>
           <li>
-            <a href="#projetos">Projetos</a>
+            <a href="#QuemSomos">Quem Somos</a>
           </li>
           <li>
-            <a href="#faleconosco">Fale Conosco</a>
+            <a href="#NossosServiços">Nosso Serviços</a>
+          </li>
+          <li>
+            <a href="#NossoImpacto">Nosso Impacto</a>
+          </li>
+          <li>
+            <a href="#ComoAjudar">Como Ajudar</a>
           </li>
         </ul>
       </nav>
