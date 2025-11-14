@@ -3,7 +3,7 @@ import styles from "./nosso-impacto.module.css";
 export function NossoImpacto() {
   return (
     <section>
-      <h1>Nosso Impacto</h1>
+      <h1 className={styles.h1}>Nosso Impacto</h1>
       <div className={styles.container}>
         <div className={styles.card}>
           <h2 className={styles.title}>40</h2>
