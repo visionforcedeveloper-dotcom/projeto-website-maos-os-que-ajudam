@@ -10,8 +10,8 @@ export function HomePage(){
     return(
         <Fragment>
         <SecaoInicio/>
-        <QuemSomos/>
         <SobreNos />
+        <QuemSomos/>
         <NossosServiços/> 
         <NossoImpacto/>
         <ComoAjudar/>
