@@ -1,4 +1,4 @@
-import styles from "./quem-somos.module.css";
+import styles from "./Como-ajudar.module.css";
 import { MdAttachMoney } from "react-icons/md";
 import { FaGift } from "react-icons/fa6";
 import { CiClock2 } from "react-icons/ci";
