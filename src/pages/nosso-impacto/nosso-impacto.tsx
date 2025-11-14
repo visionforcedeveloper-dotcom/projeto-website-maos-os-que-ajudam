@@ -2,7 +2,8 @@ import styles from "./nosso-impacto.module.css";
 
 export function NossoImpacto() {
   return (
-    <section>
+    <section className={styles.section}>
+
       <h1 className={styles.h1}>Nosso Impacto</h1>
       <div className={styles.container}>
         <div className={styles.card}>
@@ -30,5 +31,6 @@ export function NossoImpacto() {
         </div>
       </div>
     </section>
+  
   );
 }
