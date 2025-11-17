@@ -44,7 +44,6 @@ export function NossosServiços({}){
                 titulo="Assistência Social"
                 />
             </div>
-                
         </section>
     )
 }
