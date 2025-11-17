@@ -4,6 +4,10 @@
   align-items: center;
   background: #f5f5f5;
   padding: 15px 50px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 .nav-links {
@@ -20,4 +24,8 @@
 
 .nav-links a:hover {
   filter: brightness(0.8);
+}
+
+.useEffect {
+  backdrop-filter: blur(10px);
 }
