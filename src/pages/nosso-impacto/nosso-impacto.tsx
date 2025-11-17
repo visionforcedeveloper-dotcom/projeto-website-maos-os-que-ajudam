@@ -2,7 +2,7 @@ import styles from "./nosso-impacto.module.css";
 
 export function NossoImpacto() {
   return (
-    <section className={styles.section}>
+    <section id="NossoImpacto" className={styles.section}>
 
       <h1 className={styles.h1}>Nosso Impacto</h1>
       <div className={styles.container}>

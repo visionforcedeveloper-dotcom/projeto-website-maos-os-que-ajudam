@@ -6,7 +6,7 @@ import { GoPaperAirplane } from "react-icons/go";
 
 export function ComoAjudar() {
   return (
-    <section className={styles.container}>
+    <section id="ComoAjudar" className={styles.container}>
       <h2 className={styles.title}>Como Você Pode Ajudar</h2>
       <p className={styles.subtitle}>
         Sua contribuição, independente do tamanho, faz toda a diferença na vida

@@ -3,10 +3,10 @@ import styles from "./Quem-somos.module.css"
 
 export const QuemSomos: React.FC = () => {
   return (
-    <section className={styles.quemSomos}>
+    <section id="QuemSomos" className={styles.quemSomos}>
       <div className={styles.container}>
         <div className={styles.texto}>
-          <h2>Quem somos</h2>
+          <h2>Quem Somos</h2>
           <p>
             Somos uma <strong>Casa de Apoio</strong> dedicada a oferecer suporte, acolhimento e oportunidades
             para a comunidade do nosso bairro. Acreditamos no poder da união e do trabalho conjunto para
