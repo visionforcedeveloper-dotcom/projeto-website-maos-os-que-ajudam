@@ -21,7 +21,8 @@
 .nav-links a {
   font-weight: bold;
   text-decoration: none;
-  color: #0496ff;
+  color: #ff9500;
+  font-size: larger;
 }
 
 .nav-links a:hover {
@@ -53,7 +54,7 @@
 .hamburger span {
   width: 28px;
   height: 3px;
-  background: #0496ff;
+  background: #ff9500;
   transition: 0.3s;
   border-radius: 2px;
 }
