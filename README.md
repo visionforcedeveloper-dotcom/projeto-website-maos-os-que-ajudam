@@ -89,6 +89,7 @@ O projeto foi desenvolvido seguindo uma abordagem **Iterativa e Incremental**, c
 
 ---
 
+<<<<<<< HEAD
 ## 📂 7. Estrutura de Desenvolvimento
 
 .
@@ -102,6 +103,9 @@ O projeto foi desenvolvido seguindo uma abordagem **Iterativa e Incremental**, c
 └── README.md # Este arquivo
 
 ---
+=======
+
+>>>>>>> origin/developer
 
 ## 🧑‍🤝‍🧑 8. Equipe Solidarize
 

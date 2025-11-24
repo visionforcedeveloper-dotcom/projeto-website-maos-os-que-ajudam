@@ -1,0 +1,68 @@
+.quemSomos {
+  background-color: #fff;
+  padding: 80px 20px;
+  font-family: 'DM Sans' sans-serif;
+  text-align: left;
+  display: flex;
+  margin-bottom: auto;
+  color: black;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 40px;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+.texto {
+  flex: 1;
+  min-width: 300px;
+}
+
+.texto h2 {
+  font-size: 2.2rem;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+.texto p {
+  font-size: 1.1rem;
+  color: #555;
+  line-height: 1.6;
+  margin-bottom: 15px;
+}
+
+.texto strong {
+  color: #0077b6;
+}
+
+.imagem {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.imagem img {
+  width: 100%;
+  max-width: 480px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .imagem img {
+    max-width: 100%;
+  }
+}
+
+
+
