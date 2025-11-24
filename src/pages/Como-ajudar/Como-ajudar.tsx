@@ -6,7 +6,7 @@ import { GoPaperAirplane } from "react-icons/go";
 
 export function ComoAjudar() {
   return (
-    <section id="ComoAjudar" className={styles.container}>
+    <section className={styles.container}>
       <h2 className={styles.title}>Como Você Pode Ajudar</h2>
       <p className={styles.subtitle}>
         Sua contribuição, independente do tamanho, faz toda a diferença na vida
@@ -62,18 +62,25 @@ export function ComoAjudar() {
         </div>
       </div>
 
-      <a  href="https://w.app/w2hgmo" target="_blank" className={styles.button}>Faça Sua Doação Agora</a>
-  
+      <button className={styles.button}>Faça Sua Doação Agora</button>
+      <a href="https://w.app/w2hgmo" target="_blank" rel="noopener noreferrer">
+      asdkasdasdjas
+      </a>
+
+      
       <div className={styles.whapper}>
         <div className={styles.contact}>
-        
-          <h3>Mãos que Ajudam</h3>
+          <img
+            src="assets/logo-projeto.png"
+            alt="Logo-projeto"
+            className={styles.logo}
+          />
+          <h3>Fale Conosco</h3>
           <p>
             <strong>Endereço:</strong> R. Treze de Maio, 10 - João de Deus
           </p>
           <p>
             <strong>Telefone/WhatsApp:</strong> (98) 9 9904-3539
-            <p>todos os direitos reservados pela Mãos que Ajudam</p>
           </p>
         </div>
       </div>
