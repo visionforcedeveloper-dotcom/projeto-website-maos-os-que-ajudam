@@ -12,7 +12,7 @@ export function HomePage(){
         <SecaoInicio/>
         <SobreNos />
         <QuemSomos/>
-        <NossosServiços/> 
+        <NossosServiços/>
         <NossoImpacto/>
         <ComoAjudar/>
         </Fragment>

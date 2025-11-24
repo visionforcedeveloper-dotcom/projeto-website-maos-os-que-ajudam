@@ -1,6 +1,7 @@
 import type { ReactNode } from "react";
 import styles from "./card.module.css";
 
+
 type CardProps = {
   titulo: string;
   descricao: string;

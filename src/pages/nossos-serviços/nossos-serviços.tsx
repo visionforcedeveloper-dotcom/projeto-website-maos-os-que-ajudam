@@ -7,11 +7,11 @@ import { PiBriefcaseThin } from "react-icons/pi";
 import { PiGraduationCapLight } from "react-icons/pi";
 import { GoPeople } from "react-icons/go";
 
-export function NossosServiços({}){
+export function NossosServiços(){
     return(
         <section id="NossosServiços" className={styles.container}>
-            <h2>Nossos Serviços</h2>
-            <p>Oferecemos suporte integral com programas e serviços que atendem às necessidades básicas e promovem o desenvolvimento pessoal</p>
+            <h2 id="ns">Nossos Serviços</h2>
+            <p id="sub">Oferecemos suporte integral com programas e serviços que atendem às necessidades básicas e promovem o desenvolvimento pessoal</p>
             <div id="container" className={styles.cards}>
                 <Card
                 descricao="Moradia temporária segura e confortável para famílias em situação de vulnerabilidade."
@@ -44,6 +44,7 @@ export function NossosServiços({}){
                 titulo="Assistência Social"
                 />
             </div>
+                 
         </section>
     )
 }
