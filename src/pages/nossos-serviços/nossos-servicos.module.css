@@ -13,4 +13,12 @@
     gap: 18px;
     margin: 24px auto;
     width: 90%;
+    padding: 80px 20px;
+}
+.ns {
+    font-family: 'DM Sans', sans-serif;
+}
+.sub {
+    font-family: 'DM Sans', sans-serif;
+    color: #474747;
 }
