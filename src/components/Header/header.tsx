@@ -1,13 +1,35 @@
-import { useState } from "react";
+import { useEffect, useState } from "react";
 import styles from "./header.module.css";
 
 export function Header() {
   const [open, setOpen] = useState(false);
 
+  const [isScrolled, setIsScrolled] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 50) {
+        setIsScrolled(true);
+      } else {
+        setIsScrolled(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+    return () => window.removeEventListener("scroll", handleScroll);
+  }, []);
+
   return (
-    <header>
-      <nav className={styles.navbar}>
-        <div className={styles.logo}>
+    <header
+     
+    >
+
+      <nav  className={`${
+        isScrolled
+          ? styles.useEffect
+          : styles.navbar
+      }`}>
+        <div>
           <img src="/assets/logo-projeto.png" alt="Logo Mãos Que Ajudam" />
         </div>
 
