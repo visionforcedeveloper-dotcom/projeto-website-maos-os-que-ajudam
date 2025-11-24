@@ -6,14 +6,13 @@ import { Card } from "../../components/Card/card";
 import { PiBriefcaseThin } from "react-icons/pi";
 import { PiGraduationCapLight } from "react-icons/pi";
 import { GoPeople } from "react-icons/go";
-import { CarouselSlidesOnlyExample } from "../../components/Carrossel/carrosel";
 
-export function NossosServiços({}){
+export function NossosServiços(){
     return(
         <section id="NossosServiços" className={styles.container}>
             <h2 id="ns">Nossos Serviços</h2>
             <p id="sub">Oferecemos suporte integral com programas e serviços que atendem às necessidades básicas e promovem o desenvolvimento pessoal</p>
-            {/* <div id="container" className={styles.cards}>
+            <div id="container" className={styles.cards}>
                 <Card
                 descricao="Moradia temporária segura e confortável para famílias em situação de vulnerabilidade."
                 icone={<CiHome size={28} color="white" />}
@@ -44,8 +43,8 @@ export function NossosServiços({}){
                 icone={< GoPeople size={28} color="white" />}
                 titulo="Assistência Social"
                 />
-            </div> */}
-                       <CarouselSlidesOnlyExample/>
+            </div>
+                 
         </section>
     )
 }

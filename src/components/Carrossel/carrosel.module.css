@@ -1,18 +1,22 @@
-.carrousel{
+.carrousel {
   width: 90%;
   display: flex;
   justify-content: center;
   align-items: center;
   margin: 0 auto;
-   border-radius: 10px;
-  @media (max-width:768px) {
-    
-
-    
+  border-radius: 10px;
+  @media (max-width: 768px) {
   }
 }
 
 carouselIndicators :global(.carousel-indicators li) {
-  background-color: gray; 
+  background-color: gray;
 }
 
+.carrousel :global(.carousel-indicators [data-coreui-target]) {
+  background-color: rgba(255, 0, 0, 0.3);
+}
+
+.carrousel :global(.carousel-indicators .active) {
+  background-color: red !important;
+}

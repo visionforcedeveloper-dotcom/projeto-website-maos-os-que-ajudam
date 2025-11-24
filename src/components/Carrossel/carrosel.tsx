@@ -1,4 +1,3 @@
-import React from 'react';
 import styles from "./carrosel.module.css"
 import { CCarousel, CCarouselItem} from '@coreui/react'
 import {Card} from "../Card/card";
@@ -8,10 +7,13 @@ import { GoPeople } from 'react-icons/go';
 
 export const CarouselSlidesOnlyExample = () => {
   return (
-    <div className={styles.carrousel} style={{
-        "--cui-carousel-indicator-active-bg": "red",  }}>
+    <div className={styles.carrousel}>
 
-    <CCarousel controls>
+    <CCarousel controls  style={{
+    ["--cui-carousel-indicator-active-bg"]: "red",
+    ["--cui-carousel-indicator-bg"]: "rgba(255, 0, 0, 0.3)"
+  } as React.CSSProperties}
+>
       <CCarouselItem>
         <Card
           titulo="Acolhimento Residencial"
