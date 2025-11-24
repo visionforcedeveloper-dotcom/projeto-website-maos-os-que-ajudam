@@ -5,8 +5,10 @@ import { CiClock2 } from "react-icons/ci";
 import { GoPaperAirplane } from "react-icons/go";
 
 export function ComoAjudar() {
+    const mensagem="Olá vim pr meio do site gostaria de fazer uma  doação"
+  const redirectZap= `https://api.whatsapp.com/send/?phone=559899043539&text=${encodeURI(mensagem)}`
   return (
-    <section className={styles.container}>
+    <section id="ComoAjudar" className={styles.container}>
       <h2 className={styles.title}>Como Você Pode Ajudar</h2>
       <p className={styles.subtitle}>
         Sua contribuição, independente do tamanho, faz toda a diferença na vida
@@ -62,25 +64,18 @@ export function ComoAjudar() {
         </div>
       </div>
 
-      <button className={styles.button}>Faça Sua Doação Agora</button>
-      <a href="https://w.app/w2hgmo" target="_blank" rel="noopener noreferrer">
-      asdkasdasdjas
-      </a>
-
-      
+      <a  href={redirectZap} target="_blank" className={styles.button}>Faça Sua Doação Agora</a>
+  
       <div className={styles.whapper}>
         <div className={styles.contact}>
-          <img
-            src="assets/logo-projeto.png"
-            alt="Logo-projeto"
-            className={styles.logo}
-          />
-          <h3>Fale Conosco</h3>
+        
+          <h3>Mãos que Ajudam</h3>
           <p>
             <strong>Endereço:</strong> R. Treze de Maio, 10 - João de Deus
           </p>
           <p>
             <strong>Telefone/WhatsApp:</strong> (98) 9 9904-3539
+            <p>todos os direitos reservados pela Mãos que Ajudam</p>
           </p>
         </div>
       </div>
